@@ -11,6 +11,11 @@ type Token struct {
 var keywords = map[string]TokenType {
 	"fn": FUNCTION,
 	"let": LET,
+	"true": TRUE,
+	"false": FALSE,
+	"if": IF,
+	"else": ELSE,
+	"return": RETURN,
 }
 
 // helper function: checks the keywords table to see whther the given identifier is a keyword; 
